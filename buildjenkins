@@ -5,8 +5,8 @@ pipeline {
             steps {
                 checkout scm
 
-                sh chmod +x printing pyramid patterns.py
-                sh ./printing pyramid patterns.py
+                sh chmod +x pypart.py
+                sh ./printing pypart.py
                 sh '''#!/bin/sh
 
 echo "Hey folks"

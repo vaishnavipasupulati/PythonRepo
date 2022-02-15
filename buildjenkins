@@ -6,7 +6,7 @@ pipeline {
                 checkout scm
 
                 sh 'chmod +x pypart.py'
-                sh './printing pypart.py'
+                sh './pypart.py'
                 sh '''#!/bin/sh
 
 echo "Hey folks"
